@@ -4,8 +4,7 @@
 }
 
 header{
-    background: url('./images/header-background.png');
-    height: 500px;
+    background-color: #f9f9f9;
     color: #1E266D;
 }
 
@@ -24,7 +23,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 nav ul{
