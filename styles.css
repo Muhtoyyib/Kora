@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: #f9f9f9;
+    background: url(/images/details-1-background.png);
     color: #1E266D;
 }
 
@@ -25,6 +25,7 @@ nav{
     justify-content: space-around;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: #f9f9f9;
 }
 
 nav ul{
@@ -86,4 +87,67 @@ li.dropdown{
 
 .dropdown:hover .dropContent{
     display: block;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 6% 10% 0px 15%;
+}
+
+#home #homeText{
+    margin-right: 2%;
+    margin-left: -5%;
+    width: 45%;
+    margin-bottom: 9%;
+}
+
+#home h2{
+    font-size: 60px;
+    line-height: 1.1em;
+}
+
+#home #homeImg{
+    margin-right: -100px;
+}
+
+#home p{
+    font-size: 23px;
+    color: #515867;
+    line-height: 1.2em;
+    margin-top: 15px;
+}
+
+#homeBtns{
+    margin-top: 5%;
+}
+
+#home .homeBtn{
+    font-size: 14px;
+    padding: 23px 42px;
+    margin-left: 8px;
+    border-radius: 32px;
+    border: 1px solid #FF6C02;
+    font-weight: 600;
+}
+
+#signUpBtn{
+    color: #f9f9f9;
+    background-color: #FF6C02;
+}
+
+#signUpBtn:hover{
+    color: #FF6C02;
+    background-color: #f9f9f9;
+}
+
+#discoverBtn{
+    color: #FF6C02;
+    background-color: transparent;
+}
+
+#discoverBtn:hover{
+    color: #f9f9f9;
+    background-color: #FF6C02;
 }
