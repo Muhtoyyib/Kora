@@ -5,6 +5,7 @@
     font: "Open sans", sans-serif;
 }
 
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -51,26 +52,76 @@
     padding: 0.75rem 0.75rem ;
     text-decoration: none;
     background-color: transparent;
+    color: #1E266D;
 }
 
-.nav ul li button{
-    padding: 0.75rem 2rem;
-    margin: 0px 1rem;
-    border: 1px solid #1E266D;
-    background-color: #1E266D;
-    color: #fff;
-    border-radius: 32px;
-    font-weight: 500;
+.nav ul li a:hover{
+    color: #ff6c02;
 }
 
-.dropdown{
+.dropdown {
     display: inline-block;
 }
 
 .drop-content{
     display: none;
-
+    position: absolute;
+    background-color: #fff;
+    padding: 0.9rem 0.9rem;
 }
+
+.dropdown ul li{
+    float: none;
+}
+
+.dropdown ul li a{
+    border-bottom: 0.1px solid #1E266D;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 2px;
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.dropTrigger:hover .arrow{
+    border: solid #ff6c02;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.dropdown:hover .drop-content{
+    display: block;
+}
+
+.nav ul li button{
+    padding: 0.6rem 1.75rem;
+    margin: 0px 1rem;
+    border: 1px solid #1E266D;
+    background-color: #1E266D;
+    color: #fff;
+    border-radius: 32px;
+    font-weight: 550;
+}
+
+.nav ul li button:hover{
+    background-color: #fff;
+    color: #1E266D;
+}
+
+.nav ul li .active{
+    color: #ff6c02;
+}
+
 /* #signUpBtn{
     color: #f9f9f9;
     background-color: #FF6C02;
