@@ -8,12 +8,13 @@
 
 .navbar{
     display: flex;
+    /* position: fixed; */
     justify-content: space-between;
     align-items: center;
     padding: 0.4rem 0.5rem;
-    margin: 0px 11%;
+    margin: 10px 11%;
     color: #1E266D;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 0.95rem;
    
 }
@@ -122,6 +123,27 @@
     color: #ff6c02;
 }
 
+.hamburger{
+    display: none;
+}
+
+.navbar .hamburger a.icon {
+    background: transparent;
+    display: block;
+    
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .navbar .hamburger a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  /* .active {
+    background-color: #04AA6D;
+    color: white;
+  } */
 /* #signUpBtn{
     color: #f9f9f9;
     background-color: #FF6C02;
@@ -172,6 +194,25 @@
     .col-xs-10 {width: 83.33%;}
     .col-xs-11 {width: 91.66%;}
     .col-xs-12 {width: 100%;}
+
+    .nav-list{
+        display: none;
+        justify-content:end;
+    }
+
+    .nav-list-display{
+        display: block;
+    }
+
+   .brand{
+    margin-left: -12%;
+   }
+
+   .hamburger{
+    display: block;
+   }
+
+  
   }
 
   /* Small devices*/
