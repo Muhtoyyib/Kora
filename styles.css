@@ -205,12 +205,23 @@
     }
 
    .brand{
-    margin-left: -12%;
+    margin-left: -11%;
    }
 
    .hamburger{
     display: block;
+    margin-left: 60%;
    }
+
+   .nav ul li{
+    float: none;
+   }
+
+   .nav{
+    display: block;
+   }
+
+   
 
   
   }

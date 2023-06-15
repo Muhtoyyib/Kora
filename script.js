@@ -1,16 +1,7 @@
-// let showNav = () =>{
-//     let navLink = document.getElementById('nav-list');
-//    // navLink.style.display = 'block';
+const showNav = () => {
+    let navContainer = document.getElementById('nav-list')
 
-//     if(navLink.style.display == 'block'){
-//         navLink.style.display == 'none';
-//     } else{
-//         navLink.style.display =='block';
-//     }
-// }
+    navContainer.style.display === 'block' ? navContainer.style.display = 'none' : navContainer.style.display = 'block';
+}
 
-$(document).ready(function(){
-    $(".icon").click(function(){
-      $(".nav-list").toggleClass("nav-list-display");
-    });
-});
+
